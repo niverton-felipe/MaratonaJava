@@ -1,0 +1,26 @@
+Tipos de variáveis Java
+
+* Primitivos 
+* Referências (relacionados a objetos)
+
+Padrões de escrita
+Classe: CamelCase (palavras iniciadas em maiúscula)
+palavras reservadas: minúsculas
+variáveis: primeira palavra minúscula e demais palavras iniciadas com maiúscula.
+
+$ Atalhos
+#Identar o código automaticamente
+Ctrl + Alt + L
+
+# Copiar linha de código
+Ctrl + D
+
+# copiar sintaxe do public void main
+pstn + tab
+
+# atalho para o comando System.out.println
+sout + tab
+
+
+#Boas práticas de JAVA
+inicializar (setar) variável logo que ela for declarada. 
