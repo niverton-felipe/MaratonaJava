@@ -23,4 +23,9 @@ sout + tab
 
 
 #Boas práticas de JAVA
-inicializar (setar) variável logo que ela for declarada. 
+inicializar (setar) variável logo que ela for declarada.
+
+#Estruturas Condicionais
+Única linha após condição => pode não utilizar chaves, porém, não é uma boa prática. 
+
+#Toda variável precisa ser inicializada.
