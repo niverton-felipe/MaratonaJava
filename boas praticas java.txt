@@ -29,3 +29,25 @@ inicializar (setar) variável logo que ela for declarada.
 Única linha após condição => pode não utilizar chaves, porém, não é uma boa prática. 
 
 #Toda variável precisa ser inicializada.
+
+
+# Condicionais
+teste lógico ? <true> : <false> ;
+
+exemplo:
+
+ int idade = 20;
+ String status;
+
+ status = idade < 18 ? "menor de idade" : "maior de idade";
+ System.out.println(status);
+
+  Observação: resultado do teste lógico deve ser do  mesmo tipo da variável idade
+  ** essa regra não se aplica se usarmos o println para exibir uma mensagem na tela
+
+Benefícios:
+redução de linhas de código
+
+Contras:
+legibilidade não é tão boa
+não é indicado para situações com mais de duas condições.
