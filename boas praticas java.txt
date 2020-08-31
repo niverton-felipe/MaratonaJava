@@ -51,3 +51,27 @@ redução de linhas de código
 Contras:
 legibilidade não é tão boa
 não é indicado para situações com mais de duas condições.
+
+#Importação de classes
+Toda classe que está em outro pacote tem de ser importada.
+
+Definição: molde de uma entidade (seja física ou abstrata do mundo real).
+Principais caracterísitcas: atributos e métodos
+
+Criação de variável
+Tipo = nome da classe criada
+O processo é semelhante à criação de variáveis do tipo referência. Informar o tipo, nome da varioável e faz a instanciação do objeto.
+
+Os atributos são acessos por meio do nome da variável "." <nome do atributo>
+
+Coesão de classes:
+Classes devem atender apenas determinadas funções. Por exemplo, não se ode exigir que classe Estudante tenha as mesmas funções u atributos da classe Professor
+
+Baixa coesão: excesso de métodos e atributos para a mesma classe. É possível comparar com um supermercado
+
+Alta coesão: maior compactação e especificidade. É possível comparar com algum tipo de empreendimento destinado a vender um tipo de produto ou serviço específico (loja de chocolate).
+
+# cada classe deve realizar um objetivo específico.
+# objeto1 = objeto2 => implica n objeto1 perdendo sua referência anterior e migrado para a referência (espaco de memória) do objeto2.
+
+Garbage collecetor apagará o espaco anterior do objeto1 da memória pois não há nenhum objeto o referenciando.
