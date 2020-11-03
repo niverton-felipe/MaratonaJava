@@ -1,5 +1,7 @@
 package abc.com.br.javacore.sobrecargaconstrutores.classes;
 
+import java.util.Arrays;
+
 public class Estudante {
     private String matricula;
     private String nome;
@@ -37,6 +39,15 @@ public class Estudante {
             System.out.print(nota + " ");
         }
         System.out.println("\nData Matricula: " + dataMatricula);
+    }
+
+    @Override
+    public String toString() {
+        String saida = "matrícula: " + matricula + "\n";
+        saida += "nome: " + nome + "\n";
+        saida += "notas: " + Arrays.toString(notas) + "\n";
+        saida += "Data da matricula: " + dataMatricula;
+        return  saida;
     }
 
     public String getMatricula() {
